@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trillio Project</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="sass/main.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="assets/img/logo.png" alt="Trillio Logo" class="logo" />
+        <div class="search-box">
+          <input type="text" placeholder="Search Hotels" />
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="header-nav">
+          <i class="fas fa-bookmark"><span>7</span></i>
+          <i class="fas fa-comment-alt"><span>13</span></i>
+          <div class="user-box">
+            <img
+              src="assets/img/user.jpg"
+              alt="User Photo"
+              class="user__photo"
+            />
+            <p class="user__name">Jonas</p>
+          </div>
+        </div>
+      </header>
+      <div class="content-box">
+        <nav class="navigation">
+          <ul>
+            <li class="active-li">
+              <a href="#"><i class="fas fa-home"></i> Hotel</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-plane-departure"></i> Flight</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-car"></i> Car rental</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-map-marked-alt"></i> Tours</a>
+            </li>
+          </ul>
+          <small class="legal">
+            &copy; 2017 by Trillio. All rights reserved.
+          </small>
+        </nav>
+        <main class="main-content">
+          <div class="gallery-box">
+            <figure>
+              <img src="assets/img/hotel-1.jpg" alt="Hotel Image 1" />
+            </figure>
+            <figure>
+              <img src="assets/img/hotel-2.jpg" alt="Hotel Image 2" />
+            </figure>
+            <figure>
+              <img src="assets/img/hotel-3.jpg" alt="Hotel Image 3" />
+            </figure>
+          </div>
+          <div class="heading-bar">
+            <h1>Hotel Las Palmas</h1>
+            <div class="stars-container">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+            <div class="location-box">
+              <i class="fas fa-map-pin"></i>
+              <address><a href="https://maps.google.com">Albufeira, Portugal</a></address>
+            </div>
+            <div class="average-rating">
+              <span class="rating">8.7</span>
+              <span class="total_count">439 Votes</span>
+            </div>
+          </div>
+          <div class="description-box">
+            <div class="description">
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.<br /><br />Accusantium cumque, quas, ut corporis
+                incidunt deserunt quae architecto voluptate delectus, inventore
+                iure aliquid aliquam.
+              </p>
+              <div class="list-box">
+                <ul>
+                  <li>Close to the beach</li>
+                  <li>Breakfast Included</li>
+                  <li>Free Airport Shuttle</li>
+                  <li>Free Wifi in all rooms</li>
+                  <li>Air conditioning & heating</li>
+                  <li>pets allowed</li>
+                  <li>We speak all languages</li>
+                  <li>Perfect for families</li>
+                </ul>
+              </div>
+              <div class="recommend-section">
+                <span>Lucy and 3 other friends recommend this hotel.</span>
+                <div class="img-box">
+                  <img src="assets/img/user-3.jpg" alt="" />
+                  <img src="assets/img/user-4.jpg" alt="" />
+                  <img src="assets/img/user-5.jpg" alt="" />
+                  <img src="assets/img/user-6.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="review-box">
+              <figure>
+                <blockquote>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi, totam, itaque officia ex.
+                </blockquote>
+                <div class="review-details">
+                  <img src="assets/img/user-1.jpg" alt="" />
+                  <div class="review-person-details">
+                    <small class="review__person">Nick Smith</small>
+                    <small class="review__date">Feb 23rd, 2017</small>
+                  </div>
+                  <span class="review_count">7.8</span>
+                </div>
+              </figure>
+
+              <figure>
+                <blockquote>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi, totam, itaque officia ex.
+                </blockquote>
+                <div class="review-details">
+                  <img src="assets/img/user-2.jpg" alt="" />
+                  <div class="review-person-details">
+                    <small class="review__person">Mary Thomas</small>
+                    <small class="review__date">Sept 13th, 2017</small>
+                  </div>
+                  <span class="review_count">9.3</span>
+                </div>
+              </figure>
+              <button>Show All</button>
+            </div>
+          </div>
+          <div class="cta-section">
+            <div class="cta">
+              <h2>GOOD NEWS! WE HAVE 4 FREE ROOMS FOR YOUR SELECTED DATES!</h2>
+              <button>
+                <span class="first-text">Book Now</span>
+                <span class="second-text">Only 4 Rooms Left</span>
+              </button>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
